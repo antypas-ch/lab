@@ -9,14 +9,9 @@
          data source, the example data source is just for proofs of concept! -->
       <jta-data-source>java:jboss/datasources/case101DS</jta-data-source>      
         <properties>
-            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://172.30.150.176:3306/case101" />
-            <property name="javax.persistence.jdbc.user" value="case101" />
-            <property name="javax.persistence.jdbc.password" value="case101" />
-
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.hbm2ddl.auto" value="create" />
-</properties>
+          </properties>
    </persistence-unit>
 </persistence>

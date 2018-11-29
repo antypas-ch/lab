@@ -41,5 +41,6 @@ public class MemberRegistration {
         log.info("Registering " + member.getName());
         em.persist(member);
         memberEventSrc.fire(member);
+        log.info("Registered " + member.getName());
     }
 }
