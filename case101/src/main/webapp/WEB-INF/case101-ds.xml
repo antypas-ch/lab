@@ -9,7 +9,7 @@
         pool-name="case101" enabled="true"
         use-java-context="true">
         <connection-url>jdbc:mysql://172.30.150.176:3306/case101 </connection-url>
-        <driver>com.mysql.jdbc.Driver</driver>
+        <driver>mysql</driver>
         <security>
             <user-name>case101</user-name>
             <password>case101</password>

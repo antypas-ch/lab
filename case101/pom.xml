@@ -139,11 +139,6 @@
         </dependency>
 
         <!-- Now we declare any tools needed -->
-		<dependency>
-		    <groupId>mysql</groupId>
-		    <artifactId>mysql-connector-java</artifactId>
-		    <version>5.1.6</version>
-		</dependency>
 
         <!-- Annotation processor to generate the JPA 2.0 metamodel classes for typesafe criteria queries -->
         <dependency>
